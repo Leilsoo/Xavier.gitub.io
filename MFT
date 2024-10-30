@@ -1,0 +1,21 @@
+<html>
+<head>
+  <title>My first time</title>
+  <!-- Include Vue.js -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+  <div id="intro" style="text-align:center;">
+    <h1>{{ message }}</h1>
+  </div>
+  <!-- Vue.js Script -->
+  <script type="text/javascript">
+    var vue_det = new Vue({
+      el: '#intro',
+      data: {
+        message: 'My first Time'
+      }
+    });
+  </script>
+</body>
+</html>
